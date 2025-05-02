@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Kinh tế vĩ mô</title>
+  <link rel="stylesheet" href="./assets/css/styles.css">
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-100 text-gray-800 p-4 mx-auto">
+  <div class="max-w-4xl mx-auto space-y-6">
+
+    <!-- MENU -->
+    <div class="flex flex-wrap justify-center gap-2">
+      <button class="btn" onclick="showChapter(1)">Chương 1</button>
+      <button class="btn" onclick="showChapter(2)">Chương 2</button>
+      <button class="btn" onclick="showChapter(3)">Chương 3</button>
+      <button class="btn" onclick="showChapter(4)">Chương 4</button>
+      <button class="btn" onclick="showChapter(5)">Chương 5</button>
+      <button class="btn" onclick="showChapter(6)">Chương 6</button>
+      <button class="btn" onclick="showChapter(7)">Chương 7</button>
+      <button class="btn" onclick="showChapter(8)">Chương 8</button>
+      <button class="btn" onclick="showChapter(9)">Chương 9</button>
+    </div>
+
+    <!-- CHƯƠNG NỘI DUNG -->
+    <main id="content1" class="chapter-content hidden"><div class="card">📘 Đây là nội dung của chương 1.</div></main>
+    <main id="content2" class="chapter-content hidden"><div class="card">📘 Đây là nội dung của chương 2.</div></main>
+    <main id="content3" class="chapter-content hidden"><div class="card">📘 Đây là nội dung của chương 3.</div></main>
+    <main id="content4" class="chapter-content hidden"><div class="card">📘 Đây là nội dung của chương 4.</div></main>
+    <main id="content5" class="chapter-content hidden"><div class="card">📘 Đây là nội dung của chương 5.</div></main>
+    <main id="content6" class="chapter-content hidden"><div class="card">📘 Đây là nội dung của chương 6.</div></main>
+    <main id="content7" class="chapter-content hidden"><div class="card">📘 Đây là nội dung của chương 7.</div></main>
+    <main id="content8" class="chapter-content hidden"><div class="card">📘 Đây là nội dung của chương 8.</div></main>
+    <main id="content9" class="chapter-content hidden"><div class="card">📘 Đây là nội dung của chương 9.</div></main>
+
+    <!-- Nút highlight và note -->
+    <button id="highlightBtn" class="btn-circle">🖍️</button>
+    <button id="noteBtn" class="btn-circle">📝</button>
+
+    <input type="color" id="highlightColor" value="#ffff00" />
+  
+    <!-- Popup ghi chú -->
+    <div id="notePopup" class="popup-note">
+      <textarea id="noteText" placeholder="Nhập ghi chú tại đây..."></textarea><br/>
+      <button id="saveNoteBtn">💾 Lưu</button>
+    </div>
+    
+    <div id="notePopup" class="popup hidden">
+      <textarea id="noteText" readonly></textarea>
+      <button id="closeNoteBtn">Đóng</button>
+    </div>
+    
+
+    <!-- FOOTER -->
+    <footer class="text-center text-sm text-gray-500 py-4">
+      © Em đẹp nhất trong lòng anh
+    </footer>
+  </div>
+
+  <script src="./assets/js/script.js"></script>
+</body>
+</html>
