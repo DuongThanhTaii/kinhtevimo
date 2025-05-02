@@ -933,9 +933,312 @@ document.getElementById("content7").innerHTML = `
 
 `;
 
-document.getElementById("content8").innerHTML = ``;
+document.getElementById("content8").innerHTML = `
+  <section>
+    <h2>CHƯƠNG 8: LẠM PHÁT & THẤT NGHIỆP</h2>
 
-document.getElementById("content9").innerHTML = ``;
+    <h3>I. LẠM PHÁT</h3>
+    <blockquote>📌 <em>Ví dụ:</em> Khi giá xăng tăng kéo theo giá vận chuyển và giá thực phẩm tăng → mức giá chung tăng → xảy ra lạm phát.</blockquote>
+
+    <h4>1. Định nghĩa:</h4>
+    <ul>
+      <li>Lạm phát là sự gia tăng mức giá chung của nền kinh tế theo thời gian.</li>
+      <li>Không phải là sự tăng giá của một vài mặt hàng đơn lẻ hay tạm thời.</li>
+    </ul>
+
+    <h4>2. Cách tính:</h4>
+    <p>Dựa vào chỉ số giá:</p>
+    <ul>
+      <li>CPI (Chỉ số giá tiêu dùng)</li>
+      <li>PPI (Chỉ số giá sản xuất)</li>
+      <li>GDP Deflator (Chỉ số điều chỉnh GDP)</li>
+    </ul>
+
+    <h4>3. Giảm phát và giảm lạm phát:</h4>
+    <ul>
+      <li><strong>Giảm phát:</strong> mức giá chung giảm theo thời gian (lạm phát âm)</li>
+      <li><strong>Giảm lạm phát:</strong> tốc độ tăng giá giảm so với kỳ trước</li>
+    </ul>
+
+    <h4>4. Phân loại theo mức độ:</h4>
+    <ul>
+      <li><strong>Lạm phát thấp/vừa:</strong> &lt; 10%/năm</li>
+      <li><strong>Lạm phát cao:</strong> từ 10% đến &lt; 100%/năm</li>
+      <li><strong>Lạm phát phi mã:</strong> 100% – &lt; 1000%/năm</li>
+      <li><strong>Siêu lạm phát:</strong> ≥ 1000%/năm</li>
+    </ul>
+
+    <h4>5. Phân loại khác:</h4>
+    <ul>
+      <li><strong>Theo dự kiến:</strong> dự kiến vs. ngoài dự kiến</li>
+      <li><strong>Theo điều hành:</strong> toàn phần vs. cơ bản</li>
+    </ul>
+
+    <h3>II. NGUYÊN NHÂN GÂY LẠM PHÁT</h3>
+    <blockquote>📌 <em>Ví dụ tổng quát:</em> Giai đoạn 2007–2008 tại Việt Nam, do đầu tư công và tín dụng tăng mạnh → tổng cầu tăng → lạm phát vượt 20%.</blockquote>
+
+    <h4>1. Lạm phát do cầu kéo:</h4>
+    <blockquote>📌 <em>Ví dụ:</em> Khi chính phủ tăng chi tiêu xây dựng cơ sở hạ tầng → nhu cầu về vật liệu và lao động tăng → giá cả tăng → lạm phát do cầu kéo.</blockquote>
+    <ul>
+      <li>AD tăng → Y ↑, P ↑</li>
+      <li>Nguyên nhân: tiêu dùng, đầu tư, G hoặc xuất khẩu tăng</li>
+    </ul>
+
+    <h4>2. Lạm phát do chi phí đẩy:</h4>
+    <blockquote>📌 <em>Ví dụ:</em> Giá xăng dầu thế giới tăng khiến chi phí vận tải và sản xuất tăng theo → doanh nghiệp nâng giá bán → lạm phát do chi phí đẩy.</blockquote>
+    <ul>
+      <li>AS giảm (do giá đầu vào tăng, lương tăng, thiên tai...)</li>
+      <li>Gây ra lạm phát và suy thoái (stagflation)</li>
+    </ul>
+
+    <h4>3. Lạm phát do tỷ giá:</h4>
+    <blockquote>📌 <em>Ví dụ:</em> Khi đồng VND mất giá so với USD → hàng nhập khẩu như linh kiện điện tử, xăng dầu tăng giá → giá thành sản phẩm nội địa tăng → lạm phát.</blockquote>
+    <ul>
+      <li>Đồng nội tệ mất giá → giá hàng nhập khẩu tăng → chi phí tăng</li>
+      <li>X tăng, M giảm → AD tăng → P tăng</li>
+    </ul>
+
+    <h4>4. Lạm phát do kỳ vọng:</h4>
+    <blockquote>📌 <em>Ví dụ:</em> Doanh nghiệp dự đoán năm tới giá cả tăng → tăng lương trước để giữ chân lao động → làm tăng chi phí → kích hoạt lạm phát thực sự.</blockquote>
+    <ul>
+      <li>Kỳ vọng giá tăng → doanh nghiệp, người dân điều chỉnh giá và lương cao hơn → gây lạm phát thực sự</li>
+    </ul>
+
+    <h4>5. Lạm phát do cung tiền:</h4>
+    <blockquote>📌 <em>Ví dụ:</em> Một quốc gia in tiền để tài trợ thâm hụt ngân sách mà không tăng sản lượng → tiền nhiều hơn trong khi hàng hóa không đổi → lạm phát xảy ra.</blockquote>
+    <ul>
+      <li>Theo phương trình số lượng tiền tệ: MV = PY → %ΔP = %ΔM – %ΔY</li>
+      <li>Trong dài hạn: %ΔP ≈ %ΔM</li>
+      <li>Nguyên nhân cốt lõi dài hạn của lạm phát</li>
+    </ul>
+
+    <h3>III. TÁC ĐỘNG CỦA LẠM PHÁT</h3>
+    <h4>1. Lạm phát và mức sống:</h4>
+    <ul>
+      <li>Lạm phát không nhất thiết làm giảm mức sống nếu thu nhập tăng tương ứng</li>
+      <li>Lạm phát không đồng đều → tái phân phối thu nhập</li>
+    </ul>
+
+    <h4>2. Các chi phí của lạm phát:</h4>
+    <ol>
+      <li>Chi phí mòn giày: rút tiền thường xuyên</li>
+      <li>Chi phí thực đơn: cập nhật bảng giá</li>
+      <li>Phân bổ sai nguồn lực: tín hiệu giá bị méo</li>
+      <li>Nhầm lẫn bất tiện: khó lập kế hoạch tài chính</li>
+      <li>Méo mó do thuế: biểu thuế cố định khi giá tăng</li>
+      <li>Tái phân phối thu nhập không công bằng</li>
+    </ol>
+    <blockquote>📌 <em>Ví dụ:</em> Lãi suất danh nghĩa: 7%, kỳ vọng lạm phát: 5%, thực tế 7% → lãi suất thực = 0%, người vay lợi</blockquote>
+
+    <h3>IV. BIỆN PHÁP KIỀM CHẾ LẠM PHÁT</h3>
+    <blockquote>📌 <em>Ví dụ tổng quát:</em> Năm 2011, Việt Nam áp dụng chính sách thắt chặt tiền tệ và tài khóa cùng lúc để đưa lạm phát từ 18% xuống dưới 10%.</blockquote>
+
+    <h4>1. Chính sách tài khóa thắt chặt:</h4>
+    <blockquote>📌 <em>Ví dụ:</em> Chính phủ cắt giảm chi tiêu công và hoãn các dự án không cấp thiết để giảm áp lực cầu kéo đối với giá cả.</blockquote>
+    <p>Giảm G và/hoặc tăng T → AD ↓ → P ↓ nhưng Y ↓, U ↑</p>
+
+    <h4>2. Chính sách tiền tệ thắt chặt:</h4>
+    <blockquote>📌 <em>Ví dụ:</em> Ngân hàng trung ương tăng lãi suất tái chiết khấu → lãi vay tăng → hạn chế tiêu dùng và đầu tư → kiểm soát lạm phát.</blockquote>
+    <p>Giảm cung tiền → r ↑ → I ↓, C ↓ → AD ↓ → P ↓</p>
+
+    <h4>3. Đánh đổi:</h4>
+    <ul>
+      <li>Kiềm chế lạm phát gây thiệt hại đến sản lượng và việc làm</li>
+      <li>Chấp nhận mức lạm phát thấp/vừa phải là tối ưu</li>
+    </ul>
+
+    <h3>V. THẤT NGHIỆP</h3>
+    <blockquote>📌 <em>Ví dụ tổng quát:</em> Trong dịch COVID-19, nhiều lao động ngành du lịch, hàng không mất việc do không có khách quốc tế → thất nghiệp gia tăng.</blockquote>
+
+    <h4>1. Khái niệm:</h4>
+    <p>Người trong lực lượng lao động, không có việc làm nhưng đang tìm việc</p>
+    <p><strong>Tỷ lệ thất nghiệp =</strong> (Số người thất nghiệp) / (Lực lượng lao động)</p>
+
+    <h4>2. Lực lượng lao động:</h4>
+    <p>Người từ 15 tuổi trở lên, đủ điều kiện làm việc, gồm có việc và thất nghiệp</p>
+
+    <h4>3. Các tỷ lệ liên quan:</h4>
+    <ul>
+      <li><strong>Tỷ lệ tham gia lực lượng lao động =</strong> LLLĐ / dân số trong độ tuổi lao động</li>
+      <li><strong>Tỷ lệ có việc làm =</strong> người có việc / dân số trong độ tuổi lao động</li>
+    </ul>
+
+    <h4>4. Phân loại thất nghiệp:</h4>
+    <ul>
+      <li>Cọ xát: Sinh viên mới ra trường đang tìm việc phù hợp.</li>
+      <li>Cơ cấu: Công nhân mất việc do tự động hóa.</li>
+      <li>Tự nguyện: Người nghỉ việc đợi mức lương cao hơn.</li>
+      <li>Không tự nguyện: Mất việc do công ty phá sản.</li>
+      <li><strong>Tự nhiên:</strong> tồn tại khi Yt = Yp</li>
+      <li><strong>Chu kỳ:</strong> xuất hiện khi Ut > Un</li>
+      <li><strong>Tạm thời:</strong> đang chuyển việc</li>
+      <li><strong>Cơ cấu:</strong> do chuyển ngành, công nghệ</li>
+      <li><strong>Thất nghiệp trá hình, mùa vụ, bán thất nghiệp:</strong> phổ biến ở nước đang phát triển</li>
+    </ul>
+
+    <h4>5. Định luật Okun:</h4>
+    <blockquote>📌 <em>Ví dụ:</em> Nếu GDP tiềm năng là 2000 tỷ, GDP thực tế là 1900 tỷ → mất 100 tỷ → thất nghiệp vượt mức tự nhiên theo công thức Okun.</blockquote>
+    <p>Nếu Yt &lt; Yp → Ut &gt; Un</p>
+    <p>∆Ut = 0.5 × (Yp – Yt)/Yp</p>
+
+    <h3>VI. MỐI QUAN HỆ LẠM PHÁT – THẤT NGHIỆP</h3>
+    <blockquote>📌 <em>Ví dụ thực tế:</em> Giai đoạn 1960s ở Mỹ, khi chính phủ mở rộng AD để giảm thất nghiệp → ban đầu U ↓ nhưng sau đó kỳ vọng điều chỉnh khiến lạm phát duy trì mà thất nghiệp không giảm tiếp.</blockquote>
+
+    <h4>1. Đường Phillips:</h4>
+    <ul>
+      <li><strong>Ngắn hạn:</strong> quan hệ nghịch giữa lạm phát và thất nghiệp</li>
+      <li><strong>Dài hạn:</strong> thất nghiệp = Un bất kể lạm phát</li>
+    </ul>
+    <blockquote>
+      📌 <em>Ví dụ:</em> AD tăng → Y ↑, U ↓, P ↑ → ngắn hạn có đánh đổi<br>
+      Dài hạn: kỳ vọng điều chỉnh → SRAS dịch trái → Y ↓ về Yp, U về Un
+    </blockquote>
+
+    <h4>2. Hệ quả:</h4>
+    <ul>
+      <li>Kiềm chế lạm phát có thể gây thất nghiệp tạm thời</li>
+      <li>Cần cân bằng giữa kiểm soát lạm phát và tăng trưởng việc làm</li>
+    </ul>
+
+    <p><em>Tài liệu: Mankiw, bài giảng KTVM - UEH</em></p>
+  </section>
+
+`;
+
+document.getElementById("content9").innerHTML = `
+  <section>
+    <h2>CHƯƠNG 9: THỊ TRƯỜNG NGOẠI TỆ &amp; CÁN CÂN THANH TOÁN</h2>
+
+    <h3>I. TỶ GIÁ HỐI ĐOÁI</h3>
+    <h4>1. Tỷ giá danh nghĩa (En):</h4>
+    <ul>
+      <li>Là tỷ lệ trao đổi giữa hai đồng tiền của hai quốc gia</li>
+      <li>Ví dụ: 24.000 VND/USD (Việt Nam niêm yết theo số nội tệ đổi lấy một ngoại tệ)</li>
+      <li>En ↑ → VND mất giá → hàng hóa VN rẻ hơn → xuất khẩu tăng, nhập khẩu giảm</li>
+    </ul>
+
+    <h4>2. Tỷ giá thực tế (Er):</h4>
+    <ul>
+      <li>Là tỷ lệ trao đổi hàng hóa giữa hai nước, phản ánh sức cạnh tranh hàng hóa</li>
+      <li>Công thức: <strong>Er = (En × Pf) / Pd</strong>
+        <ul>
+          <li>En: tỷ giá danh nghĩa</li>
+          <li>Pf: chỉ số giá nước ngoài</li>
+          <li>Pd: chỉ số giá trong nước</li>
+        </ul>
+      </li>
+      <li>Er ↑ → hàng hóa trong nước cạnh tranh hơn → xuất khẩu tăng</li>
+    </ul>
+    <blockquote>📌 <em>Ví dụ:</em> Giá tôm VN 240.000 VND/kg, tôm Mỹ $12/kg, En = 24.000 → tôm VN quy đổi = $10 → Er = 12/10 = 1.2 → tôm VN rẻ hơn → có lợi thế xuất khẩu</blockquote>
+
+    <h3>II. THỊ TRƯỜNG NGOẠI TỆ</h3>
+    <h4>1. Khái niệm:</h4>
+    <ul>
+      <li>Nơi diễn ra hoạt động mua bán các ngoại tệ</li>
+      <li>Cầu ngoại tệ (USD): nhập khẩu, đầu tư ra nước ngoài</li>
+      <li>Cung ngoại tệ (USD): xuất khẩu, đầu tư vào trong nước</li>
+    </ul>
+
+    <h4>2. Xác định tỷ giá cân bằng:</h4>
+    <ul>
+      <li>Giao điểm giữa cung và cầu USD</li>
+      <li>En > Eo → cung USD > cầu USD → dư cung → tỷ giá giảm</li>
+      <li>En < Eo → cầu USD > cung USD → dư cầu → tỷ giá tăng</li>
+    </ul>
+    <blockquote>📌 <em>Ví dụ:</em> Khi người VN thích hàng Mỹ hơn → nhập khẩu tăng → cầu USD tăng → tỷ giá En tăng</blockquote>
+
+    <h4>3. Các yếu tố dịch chuyển cung/cầu:</h4>
+    <ul>
+      <li>Cung USD tăng nếu: Mỹ đầu tư nhiều vào VN, người Mỹ tiêu dùng hàng VN</li>
+      <li>Cầu USD tăng nếu: người VN đi du lịch, đầu tư vào Mỹ, kỳ vọng VND mất giá</li>
+    </ul>
+
+    <h3>III. CÁC CƠ CHẾ TỶ GIÁ</h3>
+    <h4>1. Cơ chế tỷ giá thả nổi:</h4>
+    <ul>
+      <li>Tỷ giá do cung cầu quyết định, NHTƯ không can thiệp</li>
+      <li>Ưu điểm: linh hoạt, tự điều chỉnh</li>
+      <li>Nhược điểm: tỷ giá biến động, gây rủi ro cho thương mại</li>
+    </ul>
+
+    <h4>2. Cơ chế tỷ giá cố định:</h4>
+    <ul>
+      <li>NHTƯ ấn định tỷ giá Ef và cam kết mua/bán ngoại tệ ở mức đó</li>
+      <li>Ef > Eo → dư cung USD → NHTƯ mua USD, cung VND tăng</li>
+      <li>Ef < Eo → dư cầu USD → NHTƯ bán USD, cung VND giảm</li>
+    </ul>
+    <blockquote>📌 <em>Ví dụ:</em> NHTƯ giữ tỷ giá Ef = 24.000, nhưng thị trường cần 24.500 → để giữ Ef, NHTƯ phải bán USD ra → dùng dự trữ ngoại hối</blockquote>
+
+    <h4>3. Tỷ giá thả nổi có quản lý:</h4>
+    <ul>
+      <li>Tỷ giá được thả nổi trong một biên độ</li>
+      <li>NHTƯ can thiệp nếu tỷ giá vượt biên độ</li>
+    </ul>
+
+    <h4>4. Tỷ giá cố định có điều chỉnh:</h4>
+    <ul>
+      <li>NHTƯ ấn định tỷ giá nhưng sẽ điều chỉnh dần theo thị trường nếu sai lệch nhiều</li>
+    </ul>
+    <blockquote>📌 <em>Ví dụ:</em> Việt Nam từng áp dụng cơ chế tỷ giá trung tâm biến động trong biên độ ±3%</blockquote>
+
+    <h3>IV. TÁC ĐỘNG CỦA THAY ĐỔI TỶ GIÁ</h3>
+    <h4>1. Trong cơ chế thả nổi:</h4>
+    <ul>
+      <li>En ↑ → VND mất giá → xuất khẩu tăng → AD ↑ → Y ↑ (ngắn hạn)</li>
+      <li>Dài hạn: giá cả tăng → Er về mức cũ → AD và Y trở về tiềm năng</li>
+    </ul>
+
+    <h4>2. Trong cơ chế cố định:</h4>
+    <ul>
+      <li>NHTƯ phá giá VND (Ef ↑) → AD ↑ → cung tiền tăng → r ↓ → I ↑ → Y ↑ (ngắn hạn)</li>
+      <li>Dài hạn: lạm phát tăng → sức cạnh tranh mất dần → Y trở về Yp</li>
+    </ul>
+    <blockquote>📌 <em>Ví dụ:</em> Giai đoạn sau 2008, nhiều quốc gia phá giá đồng nội tệ để kích cầu xuất khẩu khi kinh tế suy thoái</blockquote>
+
+    <h3>V. CÁN CÂN THANH TOÁN (Balance of Payments – BOP)</h3>
+    <h4>1. Khái niệm:</h4>
+    <ul>
+      <li>BOP là bảng ghi lại toàn bộ giao dịch giữa cư dân trong nước với thế giới</li>
+      <li><strong>Cấu trúc:</strong>
+        <ul>
+          <li>Tài khoản vãng lai (CA): xuất nhập khẩu hàng hóa, dịch vụ, thu nhập và chuyển khoản</li>
+          <li>Tài khoản vốn (KA): đầu tư gián tiếp, trực tiếp, vay nợ</li>
+          <li>Tài khoản tài trợ chính thức (OSA): thay đổi dự trữ ngoại hối của NHTƯ</li>
+        </ul>
+      </li>
+    </ul>
+
+    <h4>2. Ghi nhận:</h4>
+    <ul>
+      <li>Nhận ngoại tệ → (+)</li>
+      <li>Chi ngoại tệ → (–)</li>
+    </ul>
+
+    <h4>3. Cân bằng kế toán:</h4>
+    <ul>
+      <li><strong>CA + KA + OSA = 0</strong></li>
+    </ul>
+    <blockquote>📌 <em>Ví dụ:</em> Nếu nhập khẩu &gt; xuất khẩu → NX âm → thâm hụt CA → phải vay vốn nước ngoài → KA dương để cân bằng</blockquote>
+
+    <h4>4. Mối quan hệ S – I và NX:</h4>
+    <ul>
+      <li>GDP = C + I + G + NX → S – I = NX</li>
+      <li>S &gt; I → thặng dư CA (cho nước ngoài vay)</li>
+      <li>S &lt; I → thâm hụt CA (vay nước ngoài)</li>
+    </ul>
+    <blockquote>📌 <em>Ví dụ:</em> Việt Nam có mức đầu tư cao hơn tiết kiệm → thường thâm hụt CA và nhận đầu tư FDI để bù đắp</blockquote>
+
+    <h4>5. Thặng dư/thâm hụt cán cân:</h4>
+    <ul>
+      <li>Thặng dư: ngoại tệ vào &gt; ra → NHTƯ tăng dự trữ</li>
+      <li>Thâm hụt: ngoại tệ ra &gt; vào → NHTƯ bán dự trữ ngoại tệ</li>
+    </ul>
+    <blockquote>📌 <em>Ví dụ:</em> Nếu cán cân thanh toán thặng dư +3 tỷ USD → NHTƯ mua lại USD → dự trữ ngoại hối quốc gia tăng</blockquote>
+
+    <p><strong>Tài liệu:</strong> Mankiw, bài giảng KTVM - UEH</p>
+  </section>
+
+`;
 
 function showChapter(chapterNumber) {
   const chapters = document.querySelectorAll('.chapter-content');
@@ -952,151 +1255,153 @@ function showChapter(chapterNumber) {
 }
 
 let mode = null;
-let selectedRange = null;
+    let selectedRange = null;
 
-const highlightBtn = document.getElementById('highlightBtn');
-const noteBtn = document.getElementById('noteBtn');
-const highlightColor = document.getElementById('highlightColor');
-const notePopup = document.getElementById('notePopup');
-const noteText = document.getElementById('noteText');
-const saveNoteBtn = document.getElementById('saveNoteBtn');
-const closeNoteBtn = document.getElementById('closeNoteBtn');
+    const highlightBtn = document.getElementById('highlightBtn');
+    const noteBtn = document.getElementById('noteBtn');
+    const highlightColor = document.getElementById('highlightColor');
+    const notePopup = document.getElementById('notePopup');
+    const noteText = document.getElementById('noteText');
+    const saveNoteBtn = document.getElementById('saveNoteBtn');
+    const closeNoteBtn = document.getElementById('closeNoteBtn');
 
-// Chọn chế độ
-highlightBtn.addEventListener('click', () => {
-  mode = (mode === 'highlight') ? null : 'highlight';
-  highlightColor.style.display = (mode === 'highlight') ? 'block' : 'none';
-  notePopup.style.display = 'none';
-});
+    highlightBtn.addEventListener('click', () => {
+      mode = (mode === 'highlight') ? null : 'highlight';
+      updateCursor();
+      highlightColor.style.display = (mode === 'highlight') ? 'inline-block' : 'none';
+      notePopup.style.display = 'none';
+    });
 
-noteBtn.addEventListener('click', () => {
-  mode = (mode === 'note') ? null : 'note';
-  highlightColor.style.display = 'none';
-  notePopup.style.display = 'none';
-});
+    noteBtn.addEventListener('click', () => {
+      mode = (mode === 'note') ? null : 'note';
+      updateCursor();
+      highlightColor.style.display = 'none';
+      notePopup.style.display = 'none';
+    });
 
-// Khi chọn đoạn văn
-document.addEventListener('mouseup', (e) => {
-  const selection = window.getSelection();
-  if (selection.rangeCount === 0 || selection.isCollapsed) return;
-
-  selectedRange = selection.getRangeAt(0).cloneRange();
-  const selectedText = selectedRange.toString();
-
-  // Kiểm tra nếu đoạn văn bản đã được highlight
-  const highlighted = document.querySelectorAll('.highlighted');
-  let isHighlighted = false;
-  let targetSpan = null;
-  
-  // Tìm đoạn văn bản đã highlight, nếu có thì xóa highlight
-  highlighted.forEach(span => {
-    if (span.textContent === selectedText) {
-      isHighlighted = true;
-      targetSpan = span; // Lưu span để xóa sau
+    function updateCursor() {
+      if (mode === 'highlight') {
+        document.body.style.cursor = 'url("pen.png"), auto';
+      } else if (mode === 'note') {
+        document.body.style.cursor = 'url("note.png"), auto';
+      } else {
+        document.body.style.cursor = 'auto';
+      }
     }
-  });
 
-  if (mode === 'highlight' && isHighlighted) {
-    // Nếu đoạn văn bản đã được highlight, xóa highlight
-    targetSpan.outerHTML = targetSpan.textContent; // Thay thế span bằng văn bản nguyên gốc
-    
-    // Xóa highlight khỏi localStorage
-    let highlights = JSON.parse(localStorage.getItem('highlighted') || '[]');
-    highlights = highlights.filter(item => item.text !== selectedText);
-    localStorage.setItem('highlighted', JSON.stringify(highlights));
-  } else if (mode === 'highlight' && !isHighlighted) {
-    // Nếu chưa highlight, thêm highlight
-    const span = document.createElement('span');
-    span.textContent = selectedText;
-    span.classList.add('highlighted');
-    span.style.backgroundColor = highlightColor.value;
-    selectedRange.deleteContents();
-    selectedRange.insertNode(span);
-    selection.removeAllRanges();
+    function handleSelection(e) {
+      const selection = window.getSelection();
+      if (selection.rangeCount === 0 || selection.isCollapsed) return;
 
-    // Lưu highlight vào localStorage
-    const highlights = JSON.parse(localStorage.getItem('highlighted') || '[]');
-    highlights.push({ text: selectedText, color: highlightColor.value });
-    localStorage.setItem('highlighted', JSON.stringify(highlights));
-  }
+      selectedRange = selection.getRangeAt(0).cloneRange();
+      const selectedText = selectedRange.toString().trim();
+      if (!selectedText) return;
 
-  if (mode === 'note') {
-    notePopup.style.display = 'block';
-    noteText.value = '';
-  }
-});
+      const highlighted = document.querySelectorAll('.highlighted');
+      let isHighlighted = false;
+      let targetSpan = null;
 
-// Lưu ghi chú
-saveNoteBtn.addEventListener('click', () => {
-  const text = noteText.value.trim();
-  if (!selectedRange || !text) return;
+      highlighted.forEach(span => {
+        if (span.textContent === selectedText) {
+          isHighlighted = true;
+          targetSpan = span;
+        }
+      });
 
-  const span = document.createElement('span');
-  span.textContent = selectedRange.toString();
-  span.classList.add('highlighted');
-  span.setAttribute('data-note', text);
-  span.style.backgroundColor = '#ffeeba';
-  selectedRange.deleteContents();
-  selectedRange.insertNode(span);
+      if (mode === 'highlight' && isHighlighted) {
+        targetSpan.outerHTML = targetSpan.textContent;
+        let highlights = JSON.parse(localStorage.getItem('highlighted') || '[]');
+        highlights = highlights.filter(item => item.text !== selectedText);
+        localStorage.setItem('highlighted', JSON.stringify(highlights));
+      } else if (mode === 'highlight' && !isHighlighted) {
+        const span = document.createElement('span');
+        span.textContent = selectedText;
+        span.classList.add('highlighted');
+        span.style.backgroundColor = highlightColor.value;
+        selectedRange.deleteContents();
+        selectedRange.insertNode(span);
+        selection.removeAllRanges();
 
-  // Lưu ghi chú vào localStorage
-  const notes = JSON.parse(localStorage.getItem('notes') || '[]');
-  notes.push({ text: selectedRange.toString(), note: text });
-  localStorage.setItem('notes', JSON.stringify(notes));
+        const highlights = JSON.parse(localStorage.getItem('highlighted') || '[]');
+        highlights.push({ text: selectedText, color: highlightColor.value });
+        localStorage.setItem('highlighted', JSON.stringify(highlights));
+      }
 
-  notePopup.style.display = 'none';
-  window.getSelection().removeAllRanges();
-});
+      if (mode === 'note') {
+        notePopup.style.display = 'block';
+        noteText.value = '';
+        setTimeout(() => notePopup.scrollIntoView({ behavior: 'smooth' }), 100);
+      }
+    }
 
-// Xem lại ghi chú
-document.body.addEventListener('click', (e) => {
-  if (e.target.classList.contains('highlighted') && e.target.dataset.note) {
-    noteText.value = e.target.dataset.note;
-    notePopup.style.display = 'block';
-  }
-});
+    document.addEventListener('mouseup', handleSelection);
+    document.addEventListener('touchend', handleSelection);
 
-// Đóng popup ghi chú
-closeNoteBtn.addEventListener('click', () => {
-  notePopup.style.display = 'none';
-});
+    saveNoteBtn.addEventListener('click', () => {
+      const text = noteText.value.trim();
+      if (!selectedRange || !text) return;
 
-// Khi tải trang, khôi phục lại highlight và ghi chú
-window.addEventListener('DOMContentLoaded', () => {
-  const contentArea = document.querySelector('body'); // Hoặc phần cần thao tác
-
-  // Khôi phục highlight từ localStorage
-  const highlightList = JSON.parse(localStorage.getItem('highlighted') || '[]');
-  highlightList.forEach(item => {
-    replaceTextWithSpan(contentArea, item.text, item.color, null);
-  });
-
-  // Khôi phục notes từ localStorage
-  const noteList = JSON.parse(localStorage.getItem('notes') || '[]');
-  noteList.forEach(item => {
-    replaceTextWithSpan(contentArea, item.text, "#ffeeba", item.note);
-  });
-});
-
-// Hàm thay thế văn bản bằng <span>
-function replaceTextWithSpan(container, text, bgColor, note) {
-  const walker = document.createTreeWalker(container, NodeFilter.SHOW_TEXT, null, false);
-  let currentNode;
-  
-  while (currentNode = walker.nextNode()) {
-    const content = currentNode.textContent;
-    if (content.includes(text)) {
       const span = document.createElement('span');
+      span.textContent = selectedRange.toString();
       span.classList.add('highlighted');
-      span.style.backgroundColor = bgColor;
-      if (note) span.setAttribute('data-note', note);
+      span.setAttribute('data-note', text);
+      span.style.backgroundColor = '#ffeeba';
+      selectedRange.deleteContents();
+      selectedRange.insertNode(span);
 
-      const parts = content.split(text);
-      currentNode.replaceWith(parts[0], span, parts[1]);
-      span.textContent = text;
+      const notes = JSON.parse(localStorage.getItem('notes') || '[]');
+      notes.push({ text: selectedRange.toString(), note: text });
+      localStorage.setItem('notes', JSON.stringify(notes));
+
+      notePopup.style.display = 'none';
+      window.getSelection().removeAllRanges();
+    });
+
+    document.body.addEventListener('click', (e) => {
+      if (e.target.classList.contains('highlighted') && e.target.dataset.note) {
+        noteText.value = e.target.dataset.note;
+        notePopup.style.display = 'block';
+        setTimeout(() => notePopup.scrollIntoView({ behavior: 'smooth' }), 100);
+      }
+    });
+
+    closeNoteBtn.addEventListener('click', () => {
+      notePopup.style.display = 'none';
+    });
+
+    window.addEventListener('DOMContentLoaded', () => {
+      const contentArea = document.querySelector('body');
+
+      const highlightList = JSON.parse(localStorage.getItem('highlighted') || '[]');
+      highlightList.forEach(item => {
+        replaceTextWithSpan(contentArea, item.text, item.color, null);
+      });
+
+      const noteList = JSON.parse(localStorage.getItem('notes') || '[]');
+      noteList.forEach(item => {
+        replaceTextWithSpan(contentArea, item.text, "#ffeeba", item.note);
+      });
+    });
+
+    function replaceTextWithSpan(container, text, bgColor, note) {
+      const walker = document.createTreeWalker(container, NodeFilter.SHOW_TEXT, null, false);
+      let currentNode;
+
+      while (currentNode = walker.nextNode()) {
+        const content = currentNode.textContent;
+        if (content.includes(text)) {
+          const span = document.createElement('span');
+          span.classList.add('highlighted');
+          span.style.backgroundColor = bgColor;
+          if (note) span.setAttribute('data-note', note);
+
+          const parts = content.split(text);
+          currentNode.replaceWith(parts[0], span, parts[1]);
+          span.textContent = text;
+          break;
+        }
+      }
     }
-  }
-}
 
 
 
